@@ -1,7 +1,8 @@
 ```mermaid
 sequenceDiagram
-    participant External Database
-    participant VR 
+   # participant External Database
+   # participant VR 
+
     participant LEA
     participant Recapp
     participant Taskbase
@@ -18,4 +19,5 @@ sequenceDiagram
     CAS->>Datawarehouse: Raw Data
     Moodle->>Datawarehouse: Raw Data
     Moodle->>EdX-MOOCs: LTI
+  
 ```
