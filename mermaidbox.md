@@ -1,13 +1,5 @@
-    sequenceDiagram
-    box Purple Alice & John
-    participant A
-    participant J
-    end
-    box Another Group
-    participant B
-    participant C
-    end
+sequenceDiagram
+    participant A as Alice
+    participant J as John
     A->>J: Hello John, how are you?
     J->>A: Great!
-    A->>B: Hello Bob, how is Charly ?
-    B->>C: Hello Charly, how are you?
