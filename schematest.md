@@ -19,5 +19,6 @@ sequenceDiagram
     CAS->>Datawarehouse: Raw Data
     Moodle->>Datawarehouse: Raw Data
     Moodle->>EdX-MOOCs: LTI
+    Moodle->>Moodle: daily sync
   
 ```
